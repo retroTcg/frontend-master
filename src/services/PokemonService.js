@@ -1,4 +1,5 @@
-import { doDelete, doPut, doGet, doPost } from './ApiService';
+import { doGet } from './ApiService';
+//todo import { doDelete, doPut, doGet, doPost } from './ApiService';
 
 const serviceUrl = '/pokemon';
 

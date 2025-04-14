@@ -21,7 +21,7 @@ function DropdownMenu(props) {
 	const history = useHistory();
 
 	const token = localStorage.getItem('token');
-	const username = localStorage.getItem('currentUser');
+	// const username = localStorage.getItem('currentUser');
 
 	function calcHeight(el) {
 		const height = el.offsetHeight;

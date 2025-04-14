@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Register from '../components/RegisterAndLogin/Register';
 import Login from '../components/RegisterAndLogin/Login';
 import styled from 'styled-components';
