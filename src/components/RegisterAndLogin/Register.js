@@ -22,7 +22,7 @@ const Register = () => {
 		console.log("LOG HIT REGISTER API")
 		axios
 			.post(
-				`https://pokemongo-be-master.onrender/api/v1/user/register`,
+				`https://pokemongo-be-master.onrender.com/api/v1/user/register`,
 				user,
 			)
 			.then((res) => {

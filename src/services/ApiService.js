@@ -1,4 +1,4 @@
-const baseUrl = 'https://pokemongo-be-master.onrender/api/v1';
+const baseUrl = 'https://pokemongo-be-master.onrender.com/api/v1';
 
 const buildConfig = (config) => {
 	return {
