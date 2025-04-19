@@ -21,7 +21,8 @@ const Register = () => {
 		e.preventDefault();
 		axios
 			.post(
-				`https://alleged-mongo-backend.herokuapp.com/api/v1/user/register`,
+				console.log("LOG HIT REGISTER API")
+				`https://pokemongo-be-master.onrender/api/v1/user/register`,
 				user,
 			)
 			.then((res) => {

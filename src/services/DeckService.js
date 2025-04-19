@@ -16,7 +16,7 @@ export const getStarterDecks = async (starterDeckName) => {
 
 	try {
 		const deck = await axios.get(
-			`https://alleged-mongo-backend.herokuapp.com/api/v1/pokemon/${name}`,
+			`https://pokemongo-be-master.onrender/api/v1/pokemon/${name}`,
 		);
 		return deck.data;
 	} catch (error) {

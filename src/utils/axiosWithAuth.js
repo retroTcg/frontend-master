@@ -4,7 +4,7 @@ const axiosWithAuth = () => {
 	const token = localStorage.getItem('token');
 
 	return axios.create({
-		baseURL: 'https://alleged-mongo-backend.herokuapp.com/api/v1/',
+		baseURL: 'https://pokemongo-be-master.onrender/api/v1/',
 		headers: {
 			authorization: token,
 		},
