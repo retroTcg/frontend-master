@@ -10,6 +10,7 @@ import {
 } from '../components/DeckEditor';
 
 const DeckEditor = () => {
+	console.log("will this work");
 	return (
 		<>
 			<Container>
