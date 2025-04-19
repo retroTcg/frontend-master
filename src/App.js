@@ -57,8 +57,9 @@ function App() {
 					)}
 				/>
 				<ToastProvider autoDismiss={true}>
-					<Route path='/deckeditor' component={DeckEditor} />
+					<Route path='/deckeditor' element={<DeckEditor />} />
 				</ToastProvider>
+
 			</Switch>
 		</GlobalState>
 	);
