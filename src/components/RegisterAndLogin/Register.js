@@ -19,9 +19,9 @@ const Register = () => {
 
 	const userRegistration = (e) => {
 		e.preventDefault();
+		console.log("LOG HIT REGISTER API")
 		axios
 			.post(
-				console.log("LOG HIT REGISTER API")
 				`https://pokemongo-be-master.onrender/api/v1/user/register`,
 				user,
 			)
