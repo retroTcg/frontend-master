@@ -21,7 +21,7 @@ const Login = () => {
 		e.preventDefault();
 		axios
 			.post(
-				`https://alleged-mongo-backend.herokuapp.com/api/v1/user/login`,
+				`https://pokemongo-be-master.onrender.com/api/v1/user/login`,
 				user,
 			)
 			.then((res) => {
